@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Experience from './pages/Experience'
+import Navbar from './components/Navbar';
 // import ReactDom from 'react-dom';
 
 function App() {
