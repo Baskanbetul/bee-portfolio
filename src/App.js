@@ -6,6 +6,7 @@ import Projects from './pages/Projects'
 import Experience from './pages/Experience'
 import Navbar from './components/Navbar';
 // import ReactDom from 'react-dom';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
           </Routes>
-          {/* </Navbar> */}
+          <Footer />
        </Router>
     </div>
   );
