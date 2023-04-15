@@ -3,7 +3,9 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      Home
+      OMG it is hard 
+    
+
     </div>
   )
 }
